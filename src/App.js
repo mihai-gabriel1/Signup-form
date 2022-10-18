@@ -5,17 +5,13 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="container">
-      <div className="image">
+    <div className="app">
+      <div className="img">
         <Bgimg />
       </div>
-      <div className="text-section">
-        <div className="text-container">
-          <Textsection />
-        </div>
-        <div className="footer">
-          <Footer />
-        </div>
+      <div className="wrapp">
+        <Textsection />
+        <Footer />
       </div>
     </div>
   );
