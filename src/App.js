@@ -1,8 +1,7 @@
 import "./App.css";
-import Bgimg from "./Bgimg";
-import Textsection from "./Textsection";
-import Footer from "./Footer";
-
+import Bgimg from "./components/Bgimg.js";
+import Textsection from "./components/Textsection.js";
+import Footer from "./components/Footer.js";
 function App() {
   return (
     <div className="app">
