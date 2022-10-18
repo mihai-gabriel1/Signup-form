@@ -1,5 +1,5 @@
 const Bgimg = () => {
-  return <div className="bg-img">asdada</div>;
+  return <div className="bg-img"></div>;
 };
 
 export default Bgimg;
