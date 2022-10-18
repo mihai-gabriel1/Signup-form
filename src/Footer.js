@@ -1,8 +1,8 @@
 const footer = () => {
   return (
     <div className="footer">
-      <button>Create Account</button>
-      <p>
+      <button className="createAccount">Create Account</button>
+      <p className="footer-info">
         Already have an account? <a href="#">Log in</a>
       </p>
     </div>

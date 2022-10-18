@@ -11,8 +11,6 @@ const Textsection = () => {
         <p>You know you want to!</p>
       </div>
 
-      <h3>Lets do this</h3>
-
       <div className="forms">
         <form action="#">
           <div className="form-wrapper">
@@ -33,7 +31,12 @@ const Textsection = () => {
           </div>
           <div className="form-wrapper">
             <label htmlFor="user_password">PASSWORD</label>
-            <input type="password" name="user_password" id="user_password" />
+            <input
+              type="password"
+              name="user_password"
+              id="user_password"
+              required
+            />
           </div>
           <div className="form-wrapper">
             <label htmlFor="confirm-password">CONFIRM PASSWORD</label>
