@@ -4,9 +4,10 @@ Live preview 🚀 - https://cool-signup.netlify.app/
 
 A Sign-up form project done completely in React, using HTML, CSS, Javascript and the React framework.
 
-## Available Scripts
 
-In the project directory, you can run:
+# How to use it locally
+
+Clone the repo.
 
 ### `npm start`
 
